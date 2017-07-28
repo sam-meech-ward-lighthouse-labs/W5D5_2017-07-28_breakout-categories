@@ -15,12 +15,12 @@
 
 - (instancetype)initWithFirstName:(NSString*)firstName andLastName:(NSString*)lastName;
 
-/* Work methods */
-- (void)performDaysWork;
-- (void)takeVacationFromWork;
+@end
 
-/* Play methods */
+@interface Person(play)
+
 - (void)goToTheCinema;
 - (void)goToSportsGame;
 
 @end
+

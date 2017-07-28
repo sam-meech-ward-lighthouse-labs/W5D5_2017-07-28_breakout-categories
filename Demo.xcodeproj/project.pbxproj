@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2257A1B71F2BE41E0077C28B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257A1B61F2BE41E0077C28B /* main.m */; };
 		2257A1BF1F2BE4C70077C28B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257A1BE1F2BE4C70077C28B /* Person.m */; };
+		2257A1C81F2BF3140077C28B /* Person+work.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257A1C71F2BF3140077C28B /* Person+work.m */; };
+		2257A1CB1F2BF4D60077C28B /* NSString+append.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257A1CA1F2BF4D60077C28B /* NSString+append.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		2257A1B61F2BE41E0077C28B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2257A1BD1F2BE4C70077C28B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		2257A1BE1F2BE4C70077C28B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2257A1C61F2BF3140077C28B /* Person+work.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+work.h"; sourceTree = "<group>"; };
+		2257A1C71F2BF3140077C28B /* Person+work.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+work.m"; sourceTree = "<group>"; };
+		2257A1C91F2BF4D60077C28B /* NSString+append.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+append.h"; sourceTree = "<group>"; };
+		2257A1CA1F2BF4D60077C28B /* NSString+append.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+append.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				2257A1B61F2BE41E0077C28B /* main.m */,
 				2257A1BD1F2BE4C70077C28B /* Person.h */,
 				2257A1BE1F2BE4C70077C28B /* Person.m */,
+				2257A1C61F2BF3140077C28B /* Person+work.h */,
+				2257A1C71F2BF3140077C28B /* Person+work.m */,
+				2257A1C91F2BF4D60077C28B /* NSString+append.h */,
+				2257A1CA1F2BF4D60077C28B /* NSString+append.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -125,8 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2257A1C81F2BF3140077C28B /* Person+work.m in Sources */,
 				2257A1BF1F2BE4C70077C28B /* Person.m in Sources */,
 				2257A1B71F2BE41E0077C28B /* main.m in Sources */,
+				2257A1CB1F2BF4D60077C28B /* NSString+append.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +269,7 @@
 				2257A1BC1F2BE41E0077C28B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,16 @@
 //
 
 #import "Person.h"
+#import "Person+work.h"
+
+@interface Person()
+
+@property (nonatomic, strong) NSString *sin;
+@property (nonatomic, copy, readwrite) NSString *firstName;
+
+- (void)highFive;
+
+@end
 
 @implementation Person
 
@@ -15,21 +25,24 @@
     if (self) {
         _firstName = firstName;
         _lastName = lastName;
+        _sin = @"";
     }
     return self;
 }
 
-/* Work methods */
-- (void)performDaysWork {
-    NSLog(@"performDaysWork");
-}
-- (void)takeVacationFromWork {
-    NSLog(@"takeVacationFromWork");
+- (void)highFive {
+    self.firstName = @"high five";
 }
 
-/* Play methods */
+@end
+
+
+@implementation Person(play)
+
 - (void)goToTheCinema {
+    self.sin = @"lakshjdfj";
     NSLog(@"goToTheCinema");
+    [self performDaysWork];
 }
 - (void)goToSportsGame {
     NSLog(@"goToSportsGame");
